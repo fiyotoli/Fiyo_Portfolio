@@ -1,0 +1,15 @@
+/* Import "Glacial Indifference" font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap');
+
+/* Apply the font globally */
+body {
+  font-family: 'Glacial Indifference', sans-serif !important;
+}
+/* Custom CSS */
+input:focus,
+textarea:focus {
+  border-width: 2px !important;
+  outline: none !important; /* Removes the focus outline */
+  box-shadow: none !important; /* Removes any additional Bootstrap focus styles */
+  border-color: green !important; /* Maintains default border color */
+}
